@@ -95,9 +95,15 @@ const App = () => {
   return (
     <div className="App">
       <div>
-        <button onClick={() => setSelectedTab("tasks")}>Tasks</button>
-        <button onClick={() => setSelectedTab("cars")}>Cars</button>
-        <button onClick={() => setSelectedTab("employees")}>Employees</button>
+        <button className="tabs" onClick={() => setSelectedTab("tasks")}>
+          Tasks
+        </button>
+        <button className="tabs" onClick={() => setSelectedTab("cars")}>
+          Cars
+        </button>
+        <button className="tabs" onClick={() => setSelectedTab("employees")}>
+          Employees
+        </button>
       </div>
 
       {selectedTab === "tasks" && showForm && (

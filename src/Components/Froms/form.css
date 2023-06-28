@@ -15,12 +15,22 @@
 .fonmContainer {
   height: 50vh;
   width: 50vw;
-  background-color: #b2b2ff;
+  background-color: #aaf0d1;
   padding: 1.5rem 2rem;
+  border-radius: 1rem;
 }
 
 label {
   width: 100%;
-
+  text-align: center;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
   display: block;
+}
+input {
+  font-size: 1.02rem;
+  padding: 0.2rem;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }

@@ -25,7 +25,6 @@ const EmployeeForm = ({ onSubmit, onCancelEdit, selectedItem, onClose }) => {
   };
 
   useEffect(() => {
-    console.log("here", selectedItem);
     if (selectedItem) {
       setTempEmployeeDetails({
         position: selectedItem.position,

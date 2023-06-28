@@ -3,7 +3,12 @@ const EmployeeTable = ({ data, onEdit, onDelete, setShowForm }) => {
     <div>
       <div>
         <h1>Employee Table</h1>
-        <p onClick={() => setShowForm(true)}>Add </p>
+        <button
+          style={{ marginBottom: "1rem" }}
+          onClick={() => setShowForm(true)}
+        >
+          Add{" "}
+        </button>
       </div>
       <table>
         <thead>
