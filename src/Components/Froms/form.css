@@ -1,0 +1,26 @@
+.mainContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 81, 112, 0.1);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.fonmContainer {
+  height: 50vh;
+  width: 50vw;
+  background-color: #b2b2ff;
+  padding: 1.5rem 2rem;
+}
+
+label {
+  width: 100%;
+
+  display: block;
+}
